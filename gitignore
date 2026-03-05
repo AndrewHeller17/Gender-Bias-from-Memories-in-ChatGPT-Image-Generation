@@ -1,0 +1,21 @@
+# Generated image output (large files)
+output/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# R history and session data
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
