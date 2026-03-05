@@ -19,7 +19,7 @@ library(scales)
 
 #setwd("")
 
-raw <- read_csv("output/academicDemographics.csv", show_col_types = FALSE)
+raw <- read_csv("academicDemographics.csv", show_col_types = FALSE)
 
 
 # 2. Derive a clean gender denominator (Male + Female only) 
