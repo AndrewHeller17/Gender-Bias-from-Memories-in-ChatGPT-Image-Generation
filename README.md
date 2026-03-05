@@ -54,7 +54,11 @@ install.packages(c("tidyverse", "glue", "gt", "scales"))
 
 ## Data
 
-The `output/` directory (generated images and analysis text files) is excluded from this repo due to file size. The summary CSVs used for statistical analysis are included.
+The `output/` directory (generated images and analysis text files) is excluded from this repo due to file size. `academicDemographics.csv` is included and is the direct input to `visualizations.R`. It is derived from `folder_counts_detailed_academic.csv` (the output of `analysis.ipynb`) with real-world enrollment benchmarks sourced from publicly available college enrollment statistics and manually added.
+
+## Results
+
+Men are overrepresented across nearly all majors tested. The gap is largest for nursing, women and gender studies, and computer science. See the poster for full results and visualizations.
 
 ## Results
 
